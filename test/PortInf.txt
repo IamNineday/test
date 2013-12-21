@@ -1,0 +1,14 @@
+Information Of The Port On the xd-22-5-a8.bta.net.cncomputer 
+
+The port 75 is closed!
+The port 76 is closed!
+The port 77 is closed!
+The port 78 is closed!
+The port 79 is closed!
+The port 80 is open!
+Connected to xd-22-5-a8.bta.net.cn/202.108.22.5 on port 80 from port 50153 of /192.168.0.5
+The port 81 is closed!
+The port 82 is closed!
+The port 83 is closed!
+The port 84 is closed!
+The port 85 is closed!
