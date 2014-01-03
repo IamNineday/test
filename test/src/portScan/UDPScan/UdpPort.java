@@ -8,14 +8,13 @@ public class UdpPort {
 
 	public UdpPort() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	public void TestUdpPort() {
 
-		String ipAddress = "192.168.0.29";
+		String ipAddress = "202.108.22.5";
 
-		int port = 4545;
+		int port = 135;
 
 		DatagramSocket connection = null;
 
@@ -23,10 +22,9 @@ public class UdpPort {
 		String myStr = new String(myByte);
 
 		try {
-			// connection = new DatagramSocket(port,
-			// InetAddress.getByName(ipAddress));//(ipAddress, port);
+			connection = new DatagramSocket(port, InetAddress.getByName(ipAddress));//(ipAddress, port);
 			connection = new DatagramSocket();// (ipAddress, port);
-			// connection.setReceiveTimeout(20*1000);
+			//connection.setReceiveTimeout(20*1000);
 			connection.setSoTimeout(120 * 1000);
 			connection.connect(InetAddress.getByName(ipAddress), port);
 			System.out.println("连结创建完成...");

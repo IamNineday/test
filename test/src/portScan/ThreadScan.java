@@ -24,7 +24,7 @@ public class ThreadScan {
 //			System.out.println("Information Of The Port On the " + hostname
 //					+ "computer ");
 //
-//			// do ports scan
+			// do ports scan
 			for (int nport = 1; nport <= 65534; ++nport) {
 
 					new Thread6(nport).start();
